@@ -1,0 +1,2 @@
+# EC2 version reported during the run; Python 3.11 and Java 17.
+pyspark==4.3.0

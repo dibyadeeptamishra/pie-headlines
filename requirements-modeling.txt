@@ -1,0 +1,11 @@
+# Recorded direct package versions, not a complete transitive lock.
+# SageMaker used torch 2.10.0+cu128 on CPU; this portable pin omits the CUDA suffix.
+numpy==2.2.6
+pandas==2.3.3
+scikit-learn==1.7.2
+torch==2.10.0
+sentence-transformers==6.2.0
+transformers==5.20.2
+matplotlib==3.10.9
+joblib>=1.2,<2
+jupyterlab>=4,<5

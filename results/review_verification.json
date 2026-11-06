@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "split_rows": {
+    "train": 1172,
+    "validation": 397,
+    "test": 361
+  },
+  "test_content_groups": 331,
+  "bootstrap_repetitions": 2000,
+  "checks": [
+    "Target arithmetic and arm order",
+    "Unique experiment IDs and group-disjoint hash splits",
+    "Saved test data match predictions",
+    "Baseline predictions and all test metrics",
+    "Validation selection",
+    "All paired bootstrap draws and intervals"
+  ],
+  "raw_audit": "PASS: raw checksum, exclusions, deterministic pair selection, counts, content groups",
+  "limits": "No encoder inference or model fitting rerun; saved predictions audited. Spark jobs not rerun.",
+  "verification_environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3"
+  }
+}

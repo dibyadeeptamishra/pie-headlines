@@ -1,0 +1,17 @@
+{
+  "selected_model": "minilm_ridge",
+  "selection_metric": "validation RMSE",
+  "training_rows": 1172,
+  "tfidf_alpha": 10.0,
+  "minilm_alpha": 10.0,
+  "encoder": {
+    "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+    "normalize_embeddings": true,
+    "feature_direction": "B minus A"
+  },
+  "primary_comparison": "MiniLM versus TF-IDF",
+  "bootstrap_unit": "content_group",
+  "bootstrap_repetitions": 2000,
+  "bootstrap_seed": 20261106
+}
